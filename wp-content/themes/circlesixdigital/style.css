@@ -1,0 +1,194 @@
+/*
+ Theme Name:   Circle Six Digital
+ Description:  Circle Six Digital Theme
+ Author:       Mike Stacey
+ Author URI:   http://circlesixdigital.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  circlesixdigital
+*/
+
+/*** Global ***/
+
+.single-post blockquote,
+.blog blockquote {
+  font-weight: 600;
+  margin: 20px;
+}
+
+.single-post code,
+.blog code {
+  background-color: gray;
+  border-radius: 2px;
+  color: #000000;
+  font-size: 1rem;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  line-height: 14px;
+  margin: 0 2px;
+  overflow: auto;
+  padding: 2px;
+  width: 100%;
+}
+
+.single-post h3,
+.blog h3 {
+  border-bottom: 1px solid gray;
+  margin: 20px 0;
+  padding-bottom: 5px;
+}
+
+.single-post img,
+.blog img {
+  margin: 0 20px 20px 0;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.single-post .single-featured-image-header img {
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.colors-dark .single-featured-image-header {
+  background-color: #222 !important;
+  border: none !important;
+}
+
+.single-post #secondary {
+  display: none;
+}
+
+.single-post.has-sidebar:not(.error404) #primary {
+  width: 100%;
+}
+
+.single-post.has-sidebar:not(.error404) #primary {
+  width: 100%;
+}
+
+.blog .site-main > article,
+.archive .site-main > article,
+.search .site-main > article {
+  padding-bottom: 0.5em;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid gray;
+}
+
+.archive.category .site-content-contain .page-header {
+  margin-bottom: 2em;
+  margin-left: 0;
+}
+
+.archive.category .page-title {
+  font-size: 1.8rem;
+}
+
+.entry-footer .cat-links a {
+  display: block;
+  margin-bottom: 8px;
+  width: fit-content;
+}
+
+.colors-dark .entry-content a:focus,
+.colors-dark .entry-content a:hover,
+.colors-dark .entry-summary a:focus,
+.colors-dark .entry-summary a:hover,
+.colors-dark .comment-content a:focus,
+.colors-dark .comment-content a:hover,
+.colors-dark .widget a:focus,
+.colors-dark .widget a:hover,
+.colors-dark .site-footer .widget-area a:focus,
+.colors-dark .site-footer .widget-area a:hover,
+.colors-dark .posts-navigation a:focus,
+.colors-dark .posts-navigation a:hover,
+.colors-dark .comment-metadata a:focus,
+.colors-dark .comment-metadata a:hover,
+.colors-dark .comment-metadata a.comment-edit-link:focus,
+.colors-dark .comment-metadata a.comment-edit-link:hover,
+.colors-dark .comment-reply-link:focus,
+.colors-dark .comment-reply-link:hover,
+.colors-dark .widget_authors a:focus strong,
+.colors-dark .widget_authors a:hover strong,
+.colors-dark .entry-title a:focus,
+.colors-dark .entry-title a:hover,
+.colors-dark .entry-meta a:focus,
+.colors-dark .entry-meta a:hover,
+.colors-dark.blog .entry-meta a.post-edit-link:focus,
+.colors-dark.blog .entry-meta a.post-edit-link:hover,
+.colors-dark.archive .entry-meta a.post-edit-link:focus,
+.colors-dark.archive .entry-meta a.post-edit-link:hover,
+.colors-dark.search .entry-meta a.post-edit-link:focus,
+.colors-dark.search .entry-meta a.post-edit-link:hover,
+.colors-dark .page-links a:focus .page-number,
+.colors-dark .page-links a:hover .page-number,
+.colors-dark .entry-footer .cat-links a:focus,
+.colors-dark .entry-footer .cat-links a:hover,
+.colors-dark .entry-footer .tags-links a:focus,
+.colors-dark .entry-footer .tags-links a:hover,
+.colors-dark .post-navigation a:focus,
+.colors-dark .post-navigation a:hover,
+.colors-dark .pagination a:not(.prev):not(.next):focus,
+.colors-dark .pagination a:not(.prev):not(.next):hover,
+.colors-dark .comments-pagination a:not(.prev):not(.next):focus,
+.colors-dark .comments-pagination a:not(.prev):not(.next):hover,
+.colors-dark .logged-in-as a:focus,
+.colors-dark .logged-in-as a:hover,
+.colors-dark a:focus .nav-title,
+.colors-dark a:hover .nav-title,
+.colors-dark .edit-link a:focus,
+.colors-dark .edit-link a:hover,
+.colors-dark .site-info a:focus,
+.colors-dark .site-info a:hover,
+.colors-dark .widget .widget-title a:focus,
+.colors-dark .widget .widget-title a:hover,
+.colors-dark .widget ul li a:focus,
+.colors-dark .widget ul li a:hover {
+  -webkit-box-shadow: inset 0 0 0 rgba(255, 255, 255, 0),
+    0 1px 0 rgba(255, 255, 255, 1) !important;
+  box-shadow: inset 0 0 0 rgba(255, 255, 255, 0), 0 1px 0 rgba(255, 255, 255, 1) !important;
+}
+
+.menu-toggle {
+  margin-left: 20px;
+}
+
+.homepage-project-block {
+  float: left;
+  width: 30%;
+  margin-right: 3%;
+}
+
+.homepage-project-block:first-child {
+  margin-left: 16.5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .homepage-project-block {
+    width: 45%;
+    margin-right: 0;
+  }
+  .homepage-project-block:nth-child(even) {
+    float: right;
+  }
+  .homepage-project-block:first-child {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .homepage-project-block {
+    float: left;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 0;
+  }
+  .homepage-project-block:nth-child(even) {
+    float: left;
+  }
+  .homepage-project-block:first-child {
+    margin-left: 12.5%;
+  }
+}
